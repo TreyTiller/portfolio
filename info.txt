@@ -1,0 +1,61 @@
+HEADLINE:
+
+Howdy, I'm Trey! I'm a fullstack developer with a love for building worthwhile projects.
+
+BIO:
+
+    I'm a recent graduate of the Fullstack bootcamp from Thinkful. I also have an experienced background in Film and Digital
+Media, specialized in video post-production. My creativity and analytical background keep me drawn to software development.
+I love debugging and problem solving, and chase the overwhelming reliefe and joy you get when that problem code begins to 
+just work. I geek out over organized, simple, and truly semantic projects, and love the feeling of creating something worthwhile. 
+
+    When i'm not practicing my javascript, or studying the latest language update I like to spend my time traveling and practicing photography 
+and videography. When i'm not traveling I love to spend my time with my amazing pupper, gaming and enjoying a really good cup of coffee. 
+    
+
+
+CONTACT:
+
+Email-- treytiller@outlook.com
+Phone-- (678)-963-6538
+GitHub-- https://github.com/TreyTiller
+LinkedIn-- https://www.linkedin.com/in/josephstiller/
+
+
+PROJECTS:
+                Need to Include:
+                    --Project Title 
+                    --Project Description
+                    --List of Technologies Used
+                    --Link to Live App
+                    --Link to Repo
+
+
+    Quiz App:
+        --> Description: 
+                - This project showcases my ability to create a working web app. The questions in this app revolve around space and the knowledge 
+                the user possesses of that topic. The design of this was meant to be simplistic and resemble a terminal. The purpose of this was to create 
+                an app that had style but had ease of use and was extremly accessible. The code features clean semantic lines and easy to understand JavaScript
+                functions. Test it out and see how you do!
+                 
+        -->Technologies:
+            -   HTML5
+            -   CSS
+            -   JavaScript
+            -   jQuery
+        -->Live Link:   https://treytiller.github.io/quizapp/
+        -->Repo Link:   https://github.com/TreyTiller/quizapp
+
+
+DESIGN:
+
+    --> I want the design to be simplistic but content rich. The mobile design will have no menu but will
+    lead you through the site all the way down to my contact info. The styling will feature my personal 
+    photography and will use a series of contrasting opacity and overlays to differentiate main content
+    and menus etc.
+        Each project will have smaller screenshots of the working site and will include a description, 
+    live repo and the icons of languages used.
+        When the site gets to full size things like proficient languages and social media icons will 
+    be used on pages like the contact and projects.
+        I aim for the design to be a mixture of the two noted in the design doc
+
