@@ -59,3 +59,17 @@ DESIGN:
     be used on pages like the contact and projects.
         I aim for the design to be a mixture of the two noted in the design doc
 
+
+ASSETS NEEDED:
+        -HTML5 icon
+        -CSS icon
+        -JavaScript icon
+        -Picture for the background 
+        -Profile Picture
+        -GitHub icon
+        -LinkedIn icon
+        -cellphone icon
+        -email icon
+        -Arrow icon 
+
+
