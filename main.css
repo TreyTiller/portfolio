@@ -1,22 +1,93 @@
 * {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
+    color: white;
 }
 
 body {
-    background-image: url(img/20190807-IMG_1288.jpg);
+    background-image: linear-gradient( rgba(36, 36, 36, 0.5), rgba(36, 36, 36, 0.5)), url(img/20190807-IMG_1288.jpg);
     background-repeat: no-repeat; 
     background-position: center;
     background-attachment: fixed;       
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 100%;
-    width: 100%;
 }
 
+.portrait-container {
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    position: relative;
+    border-radius: 50%;
+    margin-top: 30px;
+    border: 1px solid white;
+    margin-bottom: 35px;
+    margin-top: 50px;
+}
+
+.portrait {
+    height: 100%;
+    width: auto;
+    margin-left: -15px;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    line-height: 32px;
+}
+
+.button {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+button {
+    border: 1px solid white;
+    padding: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: transparent;
+    border-radius: 15px;
+}
+
+h5 {
+    margin-bottom: 5px;
+}
+
+/* NOT USING FOR ANYTHING */
+
+nav {
+    display: none;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0px;
+}
+
+.bio {
+    display: none;
+}
+
+.projects, .proj-1, .proj-2, .proj-3 {
+    display: none;
+}
+
+.contact-list {
+    display: none;
+}
+
+footer {
+    display: none;
+}
 
 
 
