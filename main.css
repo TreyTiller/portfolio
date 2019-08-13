@@ -5,67 +5,19 @@
     text-align: center;
 }
 
-nav {
-    border-bottom: 2px black solid;
-    background-color: darkgray;
+body {
+    background-image: url(img/20190807-IMG_1288.jpg);
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
 }
 
-.portrait {
-    padding: 80px;
-}
 
-.headline {
-    background-color: gray;
-    height: 50px;
-    padding: 10px;
-    margin: 10px;
-}
 
-.bio {
-    background-color: gray;
-    height: 100px;
-    padding: 40px;
-    margin: 10px;
-}
 
-.projects {
-    background-color: gray;
-    height: 30px;
-    padding: 5px;
-    margin: 10px;
-}
 
-.proj-1 {
-    background-color: rgb(158, 154, 154);
-    height: 100px;
-    padding: 40px;
-    margin: 10px;
-}
-
-.proj-2 {
-    background-color: rgb(90, 87, 87);
-    height: 100px;
-    padding: 40px;
-    margin: 10px;
-}
-
-.proj-3 {
-    background-color: rgb(158, 154, 154);
-    height: 100px;
-    padding: 40px;
-    margin: 10px;
-}
-
-.contact {
-    background-color: gray;
-    height: 200px;
-    padding: 100px;
-    margin: 10px;
-}
-
-footer {
-    background-color: rgb(192, 186, 186);
-    height: 50px;
-    padding: 15px;
-    margin: 10px;
-}
