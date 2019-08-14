@@ -18,7 +18,14 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    margin: 0px;
 }
+
+nav {
+    display: none;
+}
+
+
 
 
 /*Intro landing page styling*/
@@ -81,6 +88,9 @@ h5 {
 }
 
 
+
+
+
 /*Bio section styling*/
 
 .bio {
@@ -101,6 +111,17 @@ p {
     line-height: 20px;
     letter-spacing: 2px;
 }
+
+.tablet {
+    display: none;
+}
+
+.arrow-tablet {
+    display: none;
+}
+
+
+
 
 /*Contact Section Styling*/
 
@@ -157,6 +178,13 @@ img, .linked {
     justify-self: flex-end;
 }
 
+.final-para {
+    display: none;
+}
+
+
+
+
 
 /*Project styling*/
 
@@ -206,16 +234,137 @@ img, .linked {
 
 
 
+                /*Mobile Design for Tablet Screens*/
+@media only screen and (min-width: 750px){
+
+    
+    /*Navigation Menu Styling*/
+    nav {
+        display: block;
+        background-color: rgba(36, 36, 36, 0.6);
+    }
+
+    .nav {
+        list-style: none;
+        padding: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 0px;
+    }
+
+    .home {
+        padding-bottom: 15px;
+        padding-top: 15px;
+        font-size: 18px;
+    }
+
+    .work {
+        padding-bottom: 15px;
+        padding-top: 15px;
+        font-size: 18px;
+    }
+
+    li, .contact {
+        padding-bottom: 15px;
+        padding-top: 15px;
+        font-size: 18px;
+    }
 
 
 
 
+    /*Rearrange Content*/
 
-/* NOT USING FOR ANYTHING */
+    hr {
+        display: none;
+    }
 
-nav {
-    display: none;
+    .content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .learn-more {
+        display: none;
+    }
+
+    h5 {
+        display: none;
+    }
+
+    .mobile-headline {
+        display: none;
+    }
+
+
+
+
+    /*Intro and Bio Landing Page styling*/
+
+    .tablet-headline {
+        font-size: 25px;
+        letter-spacing: 6px;
+        margin-bottom: 10px;
+    }
+
+    .headline h2 {
+        margin-top: 0px;
+    }
+
+    .one {
+        display: block;
+        margin-left: 133px;
+        margin-right: 133px;
+    }
+
+    .bio {
+        margin: 0px;
+        margin-bottom: 150px;
+        margin-right:20px;
+        margin-left:20px;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .tablet {
+        display: block;
+    }
+
+    .arrow-tablet {
+        display: inline-block;
+        margin-bottom: 200px;
+        
+    }
+
+
+
+
+    /*Contact section Styling*/
+
+    a {
+        display:
+    }
+
+    .final-para {
+        display: block;
+    }
+    
+
+
+
 }
+
+
+
+                /*Full Display Design*/
+@media only screen (min-width)
 
 
 
