@@ -59,6 +59,10 @@ h2 {
     font-size: 18px;
 }
 
+.tablet-headline {
+    display: none;
+}
+
 .button {
     margin-top: 80px;
     margin-bottom: 80px;
@@ -346,15 +350,49 @@ img, .linked {
 
 
 
-    /*Contact section Styling*/
+    /*Contact.html Styling*/
 
-    a {
-        display:
+    #contact {
+        display: none;
     }
 
     .final-para {
         display: block;
+        font-size: 18px;
+        margin: 30px;
+        line-height: 40px;
     }
+
+    .contact-list-tablet {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin-top: 100px;
+        justify-content: space-evenly;
+    }
+
+    .collab {
+        margin-top: 200px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: 2px solid white;
+        margin-bottom: 100px;
+    }
+
+    .collab-word {
+        font-size: 22px;
+    }
+
+    .footer-tablet {
+        display: none;
+    }
+    
+
+
+
+
     
 
 
