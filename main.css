@@ -1,9 +1,13 @@
 * {
     box-sizing: border-box;
     font-family: "Lato";
-    font-size: 16px;
+    
     text-align: center;
     color: white;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -45,6 +49,7 @@ hr {
 
 h2 {
     line-height: 32px;
+    font-size: 18px;
 }
 
 .button {
@@ -68,7 +73,7 @@ a {
 
 h5 {
     margin-bottom: 5px;
-    font-size: 15px
+    font-size: 16px
 }
 
 .arrow {
@@ -80,6 +85,7 @@ h5 {
 
 .bio {
     margin: 10px;
+    font-size: 17px;
 }
 
 h3 {
@@ -91,7 +97,7 @@ h3 {
 
 p {
     text-align: left;
-    font-size: 15px;
+    font-size: 17px;
     line-height: 20px;
     letter-spacing: 2px;
 }
@@ -170,6 +176,7 @@ img, .linked {
 .scrip {
     text-align: center;
     margin: 25px;
+    font-size: 17px;
 }
 
 .repo {
