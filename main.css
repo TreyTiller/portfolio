@@ -23,6 +23,7 @@ body {
 
 nav {
     display: none;
+    transition: 0.5s ease;
 }
 
 
@@ -388,21 +389,159 @@ img, .linked {
     .footer-tablet {
         display: none;
     }
-    
-
-
-
-
-    
-
-
 
 }
 
 
 
+
+
+
+
+
                 /*Full Display Design*/
-@media only screen (min-width)
+@media only screen and (min-width: 1280px) {
+
+    p {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .headline {
+        letter-spacing: 2.5px;
+    }
+
+    .bio {
+        margin-bottom: 100px;
+    }
+
+    .p-name {
+        margin-bottom: 50px;
+        font-size: 25px;
+        letter-spacing: 2.5px;
+    }
+
+    .proj-img {
+        height: 300px;
+        width: auto;
+    }
+
+    .scrip {
+        margin-left: 200px;
+        margin-right: 200px;
+        font-size: 20px;
+    }
+
+    .email {
+        height: 50px;
+        width: 50px;
+    }
+
+    a .insta{
+        height: 50px;
+        width: 50px;
+    }
+
+    .git {
+        height: 50px;
+        width: 50px;
+    }
+
+    .linked {
+        height: 50px;
+        width: 50px;
+    }
+
+    .contact-list-tablet {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin-top: 100px;
+        justify-content: space-evenly;
+    }
+
+    /*Nav Menu Animations*/
+
+    .home {
+        color: white;
+        letter-spacing: 0px;
+        transition: 0.5s ease;
+    }
+    .work {
+        color: white;
+        letter-spacing: 0px;
+        transition: 0.5s ease;
+    }
+    .contact {
+        color: white;
+        letter-spacing: 0px;
+        transition: 0.5s ease;
+    }
+    .home:hover {
+        color: rgba(155, 127, 127, 0.89);
+        letter-spacing: 3px;
+        transition: 0.5s ease;
+    }
+
+    .work:hover {
+        color: rgba(155, 127, 127, 0.89);
+        letter-spacing: 3px;
+        transition: 0.5s ease;
+    }
+
+    .contact:hover {
+        color: rgba(155, 127, 127, 0.89);
+        letter-spacing: 3px;
+        transition: 0.5s ease;
+    }
+
+    .repo {
+        background-color: transparent;
+        letter-spacing: 0px;
+        transition: all 0.3s ease;
+    }
+
+    .repo:hover {
+        background-color: rgba(61, 58, 58, 0.89);
+        color:white;
+        letter-spacing: 5px;
+        transition: all 0.5s ease;
+        cursor: pointer;
+    }
+
+    .site {
+        background-color: transparent;
+        letter-spacing: 0px;
+        transition: all 0.3s ease;
+    }
+
+    .site:hover {
+        background-color: rgba(61, 58, 58, 0.89);
+        color:white;
+        letter-spacing: 3px;
+        transition: all 0.5s ease;
+        cursor: pointer;
+    }
+
+    .collab {
+        background-color: transparent;
+        letter-spacing: 0px;
+        transition: all 0.3s ease;
+    }
+
+    .collab:hover {
+        background-color: rgba(61, 58, 58, 0.89);
+        color:white;
+        letter-spacing: 3px;
+        transition: all 0.5s ease;
+        cursor: pointer;
+    }
+
+    
+
+
+}
+
 
 
 
