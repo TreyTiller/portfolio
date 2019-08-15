@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     font-family: "Lato", sans-serif, Helvetica, sans-serif;
-    
     text-align: center;
     color: white;
 }
@@ -315,6 +314,7 @@ img, .linked {
         font-size: 25px;
         letter-spacing: 6px;
         margin-bottom: 10px;
+        display: block;
     }
 
     .headline h2 {
@@ -348,6 +348,13 @@ img, .linked {
         
     }
 
+
+    /*Project picture styling*/
+
+    .proj-img {
+        width: 700px;
+        height: auto;
+    }
 
 
 
@@ -422,8 +429,8 @@ img, .linked {
     }
 
     .proj-img {
-        height: 300px;
-        width: auto;
+        height: auto;
+        width: 800px;
     }
 
     .scrip {
@@ -537,6 +544,14 @@ img, .linked {
         cursor: pointer;
     }
 
+    
+    /*spacing fix*/
+
+    .bio {
+        margin-bottom: 60px;
+    }
+
+    
     
 
 
