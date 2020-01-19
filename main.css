@@ -1,575 +1,529 @@
 * {
-    box-sizing: border-box;
-    font-family: "Lato", sans-serif, Helvetica, sans-serif;
-    text-align: center;
-    color: white;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif, Helvetica, sans-serif;
+  text-align: center;
+  color: white;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    background-image: linear-gradient( rgba(36, 36, 36, 0.5), rgba(36, 36, 36, 0.5)), url(img/20190807-IMG_1288.jpg);
-    background-repeat: no-repeat; 
-    background-position: center center;
-    background-attachment: fixed;       
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    margin: 0px;
+  background-image: linear-gradient(
+      rgba(36, 36, 36, 0.5),
+      rgba(36, 36, 36, 0.5)
+    ),
+    url(img/20190807-IMG_1288.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0px;
 }
 
 nav {
-    display: none;
-    transition: 0.5s ease;
+  display: none;
+  transition: 0.5s ease;
 }
-
-
-
 
 /*Intro landing page styling*/
 
 .portrait-container {
-    overflow: hidden;
-    width: 150px;
-    height: 150px;
-    margin: auto;
-    position: relative;
-    border-radius: 50%;
-    margin-top: 30px;
-    border: 1px solid white;
-    margin-bottom: 35px;
-    margin-top: 50px;
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  position: relative;
+  border-radius: 50%;
+  margin-top: 30px;
+  border: 1px solid white;
+  margin-bottom: 35px;
+  margin-top: 50px;
 }
 
 .portrait {
-    height: 100%;
-    width: auto;
-    margin-left: -28px;
+  height: 100%;
+  width: auto;
+  margin-left: -28px;
 }
 
 hr {
-    margin-top: 20px;
-    margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 h2 {
-    line-height: 32px;
-    font-size: 18px;
+  line-height: 32px;
+  font-size: 18px;
 }
 
 .tablet-headline {
-    display: none;
+  display: none;
 }
 
 .button {
-    margin-top: 80px;
-    margin-bottom: 80px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 button {
-    border: 1px solid white;
-    padding: 8px;
-    padding-left: 15px;
-    padding-right: 15px;
-    background-color: transparent;
-    border-radius: 15px;
-    font-size: 18px;
+  border: 1px solid white;
+  padding: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: transparent;
+  border-radius: 15px;
+  font-size: 18px;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 h5 {
-    margin-bottom: 5px;
-    font-size: 16px
+  margin-bottom: 5px;
+  font-size: 16px;
 }
 
 .arrow {
-    margin-bottom: 115px;
+  margin-bottom: 115px;
 }
-
-
-
-
 
 /*Bio section styling*/
 
 .bio {
-    margin: 10px;
-    font-size: 17px;
-    padding-right: 20px;
-    padding-left: 20px;
+  margin: 10px;
+  font-size: 17px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 h3 {
-    text-align: center;
-    font-size: 20px;
-    letter-spacing: 8px;
-    font-weight: 700;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 8px;
+  font-weight: 700;
 }
 
 p {
-    text-align: left;
-    font-size: 17px;
-    line-height: 20px;
-    letter-spacing: 2px;
+  text-align: left;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 2px;
 }
 
 .tablet {
-    display: none;
+  display: none;
 }
 
 .arrow-tablet {
-    display: none;
+  display: none;
 }
-
-
-
 
 /*Contact Section Styling*/
 
 .contact-list {
-    list-style: none;
-    padding: 0px;
+  list-style: none;
+  padding: 0px;
 }
 
 li {
-    padding: 25px;
+  padding: 25px;
 }
 
 span {
-    padding-right: 30px;
+  padding-right: 30px;
 }
 
 .email {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
-img, .email {
-    height: 30px;
-    justify-self: flex-end;
+img,
+.email {
+  height: 30px;
+  justify-self: flex-end;
 }
 
 .phone {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
-img, .phone {
-    height: 30px;
-    justify-self: flex-end;
+img,
+.phone {
+  height: 30px;
+  justify-self: flex-end;
 }
 
 .git {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
-img, .git {
-    height: 30px;
-    justify-self: flex-end;
+img,
+.git {
+  height: 30px;
+  justify-self: flex-end;
 }
 
 .linked {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
-img, .linked {
-    height: 30px;
-    justify-self: flex-end;
+img,
+.linked {
+  height: 30px;
+  justify-self: flex-end;
 }
 
 .final-para {
-    display: none;
+  display: none;
 }
-
-
-
-
 
 /*Project styling*/
 
-
 .proj-img {
-    width: 320px;
-    height: auto;
-    margin: 10px;
+  width: 320px;
+  height: auto;
+  margin: 10px;
+  transition: 0.3s ease all;
+}
+
+.proj-img:hover {
+  opacity: 80%;
 }
 
 .p-name {
-    font-size: 18px;
-    letter-spacing: 1.5px;
-    margin-bottom: 5px;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  margin-bottom: 5px;
 }
 
 .scrip {
-    text-align: center;
-    margin: 25px;
-    font-size: 17px;
+  text-align: center;
+  margin: 25px;
+  font-size: 17px;
 }
 
 .repo {
-    font-size: 16px;
-    margin: 5px;
+  font-size: 16px;
+  margin: 5px;
 }
 
 .site {
-    font-size: 16px;
-    margin: 5px;
+  font-size: 16px;
+  margin: 5px;
 }
 
 .butt-container {
+  margin-bottom: 100px;
+}
+
+/*Mobile Design for Tablet Screens*/
+@media only screen and (min-width: 750px) {
+  /*Navigation Menu Styling*/
+  nav {
+    display: block;
+    background-color: rgba(36, 36, 36, 0.6);
+  }
+
+  .nav {
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0px;
+  }
+
+  li,
+  .home {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 18px;
+    min-width: 150px;
+  }
+
+  li,
+  .work {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 18px;
+    min-width: 150px;
+  }
+
+  li,
+  .contact {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 18px;
+    min-width: 150px;
+  }
+
+  /*Rearrange Content*/
+
+  hr {
+    display: none;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  .learn-more {
+    display: none;
+  }
+
+  h5 {
+    display: none;
+  }
+
+  .mobile-headline {
+    display: none;
+  }
+
+  /*Intro and Bio Landing Page styling*/
+
+  .tablet-headline {
+    font-size: 25px;
+    letter-spacing: 6px;
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  .headline h2 {
+    margin-top: 0px;
+  }
+
+  .one {
+    display: block;
+    margin-left: 133px;
+    margin-right: 133px;
+  }
+
+  .bio {
+    margin: 0px;
+    margin-bottom: 150px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .tablet {
+    display: block;
+  }
+
+  .arrow-tablet {
+    display: inline-block;
+    margin-bottom: 200px;
+  }
+
+  /*Project picture styling*/
+
+  .proj-img {
+    width: 700px;
+    height: auto;
+  }
+
+  /*Contact.html Styling*/
+
+  #contact {
+    display: none;
+  }
+
+  .final-para {
+    display: block;
+    font-size: 18px;
+    margin: 30px;
+    line-height: 40px;
+  }
+
+  .contact-list-tablet {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    justify-content: space-evenly;
+  }
+
+  .collab {
+    margin-top: 200px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid white;
     margin-bottom: 100px;
+  }
+
+  .collab-word {
+    font-size: 22px;
+  }
+
+  .footer-tablet {
+    display: none;
+  }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-                /*Mobile Design for Tablet Screens*/
-@media only screen and (min-width: 750px){
-
-    
-    /*Navigation Menu Styling*/
-    nav {
-        display: block;
-        background-color: rgba(36, 36, 36, 0.6);
-    }
-
-    .nav {
-        list-style: none;
-        padding: 0px;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        margin: 0px;
-    }
-
-    li, .home {
-        padding-bottom: 15px;
-        padding-top: 15px;
-        font-size: 18px;
-        min-width: 150px;
-    }
-
-    li, .work {
-        padding-bottom: 15px;
-        padding-top: 15px;
-        font-size: 18px;
-        min-width: 150px;
-    }
-
-    li, .contact {
-        padding-bottom: 15px;
-        padding-top: 15px;
-        font-size: 18px;
-        min-width: 150px;
-    }
-
-
-
-
-    /*Rearrange Content*/
-
-    hr {
-        display: none;
-    }
-
-    .content {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    .arrow {
-        display: none;
-    }
-
-    .learn-more {
-        display: none;
-    }
-
-    h5 {
-        display: none;
-    }
-
-    .mobile-headline {
-        display: none;
-    }
-
-
-
-
-    /*Intro and Bio Landing Page styling*/
-
-    .tablet-headline {
-        font-size: 25px;
-        letter-spacing: 6px;
-        margin-bottom: 10px;
-        display: block;
-    }
-
-    .headline h2 {
-        margin-top: 0px;
-    }
-
-    .one {
-        display: block;
-        margin-left: 133px;
-        margin-right: 133px;
-    }
-
-    .bio {
-        margin: 0px;
-        margin-bottom: 150px;
-        margin-right:20px;
-        margin-left:20px;
-    }
-
-    p {
-        text-align: center;
-    }
-
-    .tablet {
-        display: block;
-    }
-
-    .arrow-tablet {
-        display: inline-block;
-        margin-bottom: 200px;
-        
-    }
-
-
-    /*Project picture styling*/
-
-    .proj-img {
-        width: 700px;
-        height: auto;
-    }
-
-
-
-    /*Contact.html Styling*/
-
-    #contact {
-        display: none;
-    }
-
-    .final-para {
-        display: block;
-        font-size: 18px;
-        margin: 30px;
-        line-height: 40px;
-    }
-
-    .contact-list-tablet {
-        list-style: none;
-        display: flex;
-        align-items: center;
-        margin-top: 100px;
-        justify-content: space-evenly;
-    }
-
-    .collab {
-        margin-top: 200px;
-        padding-right: 20px;
-        padding-left: 20px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        border: 2px solid white;
-        margin-bottom: 100px;
-    }
-
-    .collab-word {
-        font-size: 22px;
-    }
-
-    .footer-tablet {
-        display: none;
-    }
-
-}
-
-
-
-
-
-
-
-
-                /*Full Display Design*/
+/*Full Display Design*/
 @media only screen and (min-width: 1280px) {
+  .arrow-container,
+  img {
+    cursor: pointer;
+  }
 
-    .arrow-container, img {
-        cursor: pointer;
-    }
+  p {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
 
-    p {
-        margin-left: 50px;
-        margin-right: 50px;
-    }
+  .headline {
+    letter-spacing: 2.5px;
+  }
 
-    .headline {
-        letter-spacing: 2.5px;
-    }
+  .bio {
+    margin-bottom: 100px;
+  }
 
-    .bio {
-        margin-bottom: 100px;
-    }
+  .p-name {
+    margin-bottom: 50px;
+    font-size: 25px;
+    letter-spacing: 2.5px;
+  }
 
-    .p-name {
-        margin-bottom: 50px;
-        font-size: 25px;
-        letter-spacing: 2.5px;
-    }
+  .proj-img {
+    height: auto;
+    width: 800px;
+  }
 
-    .proj-img {
-        height: auto;
-        width: 800px;
-    }
+  .scrip {
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 20px;
+  }
 
-    .scrip {
-        margin-left: 200px;
-        margin-right: 200px;
-        font-size: 20px;
-    }
+  .email {
+    height: 50px;
+    width: 50px;
+  }
 
-    .email {
-        height: 50px;
-        width: 50px;
-    }
+  a .insta {
+    height: 50px;
+    width: 50px;
+  }
 
-    a .insta{
-        height: 50px;
-        width: 50px;
-    }
+  .git {
+    height: 50px;
+    width: 50px;
+  }
 
-    .git {
-        height: 50px;
-        width: 50px;
-    }
+  .linked {
+    height: 50px;
+    width: 50px;
+  }
 
-    .linked {
-        height: 50px;
-        width: 50px;
-    }
+  .contact-list-tablet {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    justify-content: space-evenly;
+  }
 
-    .contact-list-tablet {
-        list-style: none;
-        display: flex;
-        align-items: center;
-        margin-top: 100px;
-        justify-content: space-evenly;
-    }
+  /*Nav Menu Animations*/
 
-    /*Nav Menu Animations*/
+  .home {
+    color: white;
+    letter-spacing: 0px;
+    transition: 0.5s ease;
+  }
+  .work {
+    color: white;
+    letter-spacing: 0px;
+    transition: 0.5s ease;
+  }
+  .contact {
+    color: white;
+    letter-spacing: 0px;
+    transition: 0.5s ease;
+  }
+  .home:hover {
+    color: rgba(155, 127, 127, 0.89);
+    letter-spacing: 3px;
+    transition: 0.5s ease;
+  }
 
-    .home {
-        color: white;
-        letter-spacing: 0px;
-        transition: 0.5s ease;
-    }
-    .work {
-        color: white;
-        letter-spacing: 0px;
-        transition: 0.5s ease;
-    }
-    .contact {
-        color: white;
-        letter-spacing: 0px;
-        transition: 0.5s ease;
-    }
-    .home:hover {
-        color: rgba(155, 127, 127, 0.89);
-        letter-spacing: 3px;
-        transition: 0.5s ease;
-    }
+  .work:hover {
+    color: rgba(155, 127, 127, 0.89);
+    letter-spacing: 3px;
+    transition: 0.5s ease;
+  }
 
-    .work:hover {
-        color: rgba(155, 127, 127, 0.89);
-        letter-spacing: 3px;
-        transition: 0.5s ease;
-    }
+  .contact:hover {
+    color: rgba(155, 127, 127, 0.89);
+    letter-spacing: 3px;
+    transition: 0.5s ease;
+  }
 
-    .contact:hover {
-        color: rgba(155, 127, 127, 0.89);
-        letter-spacing: 3px;
-        transition: 0.5s ease;
-    }
+  .repo {
+    background-color: transparent;
+    letter-spacing: 0px;
+    transition: all 0.3s ease;
+  }
 
-    .repo {
-        background-color: transparent;
-        letter-spacing: 0px;
-        transition: all 0.3s ease;
-    }
+  .repo:hover {
+    background-color: rgba(61, 58, 58, 0.89);
+    color: white;
+    letter-spacing: 5px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+  }
 
-    .repo:hover {
-        background-color: rgba(61, 58, 58, 0.89);
-        color:white;
-        letter-spacing: 5px;
-        transition: all 0.5s ease;
-        cursor: pointer;
-    }
+  .site {
+    background-color: transparent;
+    letter-spacing: 0px;
+    transition: all 0.3s ease;
+  }
 
-    .site {
-        background-color: transparent;
-        letter-spacing: 0px;
-        transition: all 0.3s ease;
-    }
+  .site:hover {
+    background-color: rgba(61, 58, 58, 0.89);
+    color: white;
+    letter-spacing: 3px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+  }
 
-    .site:hover {
-        background-color: rgba(61, 58, 58, 0.89);
-        color:white;
-        letter-spacing: 3px;
-        transition: all 0.5s ease;
-        cursor: pointer;
-    }
+  .collab {
+    background-color: transparent;
+    letter-spacing: 0px;
+    transition: all 0.3s ease;
+  }
 
-    .collab {
-        background-color: transparent;
-        letter-spacing: 0px;
-        transition: all 0.3s ease;
-    }
+  .collab:hover {
+    background-color: rgba(61, 58, 58, 0.89);
+    color: white;
+    letter-spacing: 3px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+  }
 
-    .collab:hover {
-        background-color: rgba(61, 58, 58, 0.89);
-        color:white;
-        letter-spacing: 3px;
-        transition: all 0.5s ease;
-        cursor: pointer;
-    }
+  /*spacing fix*/
 
-    
-    /*spacing fix*/
-
-    .bio {
-        margin-bottom: 30px;
-    }
-
-    
-    
-
-
+  .bio {
+    margin-bottom: 30px;
+  }
 }
-
-
-
-
-
-
-
-
