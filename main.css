@@ -24,6 +24,10 @@ body {
   margin: 0px;
 }
 
+.footer {
+  margin-bottom: 10px;
+}
+
 nav {
   display: none;
   transition: 0.5s ease;
@@ -225,6 +229,68 @@ img,
   margin-bottom: 100px;
 }
 
+/*Contact page on small screens*/
+
+.contact-list-tablet{
+  list-style: none;
+}
+
+.email {
+  height: 25px;
+  width: 25px;
+  padding: 0px;
+}
+
+.insta {
+  height: 25px;
+  width: 25px;
+  padding: 0px;
+}
+
+.git {
+  height: 25px;
+  width: 25px;
+  padding: 0px;
+}
+
+.linked {
+  height: 25px;
+  width: 25px;
+  padding: 0px;
+}
+
+.contact-list-tablet {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  justify-content: space-evenly;
+  padding: 0px;
+}
+
+#tablet-contact{
+  margin-top: 200px;
+}
+
+.collab {
+  width: 300px;
+  margin: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 2px solid white;
+}
+
+.collab-word {
+  font-size: 22px;
+}
+
+.footer-tablet {
+  display: none;
+}
+
+
 /*Mobile Design for Tablet Screens*/
 @media only screen and (min-width: 750px) {
   /*Navigation Menu Styling*/
@@ -360,14 +426,18 @@ img,
     justify-content: space-evenly;
   }
 
-  .collab {
+  #tablet-contact {
     margin-top: 200px;
+  }
+
+  .collab {
+    width: 300px;
+    margin: auto;
     padding-right: 20px;
     padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     border: 2px solid white;
-    margin-bottom: 100px;
   }
 
   .collab-word {
@@ -377,6 +447,7 @@ img,
   .footer-tablet {
     display: none;
   }
+
 }
 
 /*Full Display Design*/
@@ -443,6 +514,7 @@ img,
     margin-top: 100px;
     justify-content: space-evenly;
   }
+
 
   /*Nav Menu Animations*/
 
@@ -519,6 +591,7 @@ img,
     letter-spacing: 3px;
     transition: all 0.5s ease;
     cursor: pointer;
+    width: 320px;
   }
 
   /*spacing fix*/
